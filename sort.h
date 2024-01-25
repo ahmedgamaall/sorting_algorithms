@@ -26,6 +26,7 @@ void quick_sort(int *array, size_t size);
 void helper(int *arr, int frt, int lst, size_t n);
 int part_step(int arr[], int frt, int lst, size_t n);
 void swap_numbers(int *n1, int *n2);
+void shell_sort(int *array, size_t size);
 
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
